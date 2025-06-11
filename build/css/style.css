@@ -24,21 +24,31 @@
     bottom: 30px;
     z-index: 99;
 }
-.slider-btn{
-    position: absolute;
-    left: 40%;
-    bottom: 0;
-    border: 2px solid white;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
-#slider-btn1{
-    left: 45%;
+
+#slider-btn1 {
+  left: -25px;
 }
-#slider-btn2{
-    left: 50%;
+
+#slider-btn2 {
+  right: -25px;
 }
+
 
 
 
